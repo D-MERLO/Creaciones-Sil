@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creaciones Sil</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="logo.svg">
+
+</head>
+
+<body>
+    <img src="/logo.svg" class="logo" alt="Creaciones Sil">
+
+    <div class="container">
+        <button class="btn" onclick="openModal('modal1')">Sobre mí</button>
+        <button class="btn" onclick="openModal('modal2')">Propuestas y Servicios</button>
+        <button class="btn" onclick="openModal('modal3')">Beneficios</button>
+        <button class="btn" onclick="openModal('modal4')">Contacto</button>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h2>Lo que hago</h2>
+            <p>Hola! Soy Sil</p>
+            <p>Comencé este emprendimiento:</p>
+            <ul>
+                <li>bla bla</li>
+                <li>bla bla</li>
+                <li>bla bla</li>
+            </ul>
+           
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h2>Propuestas y Servicios</h2>
+            <p>bla bla </p>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <h2>Beneficios</h2>
+            <p>¿Por qué elegirnos?</p>
+            <ul>
+                <li>Materia prima de calidad</li>
+                <li>Personalizado al 100%</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal" id="modal4">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal4')">&times;</span>
+            <h2>Contacto</h2>
+            <p>No dudes en escribir!</p>
+            <a href="https://www.instagram.com/creacionesil" target="_blank" rel="noopener noreferrer"
+                class="enlace">
+                ¡Consultá por Instagram aquí!
+            </a>
+            <a href="https://wa.me/5493517897854" target="_blank" rel="noopener noreferrer" class="enlace">
+                ¡Consultá por WhatsApp aquí!
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
